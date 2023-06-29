@@ -557,9 +557,6 @@ border-radius: 0px 0px 4px 4px;
     margin: 0 auto;
     background-color: var(--modalBg);
 }
-.form-wrap {
-    margin-bottom: 8px;
-}
 .form-title{
     font-weight: 500;
     font-size: 16px;
