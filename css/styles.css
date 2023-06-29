@@ -722,7 +722,7 @@ margin-right: 8px;
     color: var(--white);
     margin-bottom: 16px;
 }
-.footer-label {
+.form-footer {
     display: flex;
     gap: 24px;
     align-items: center;
