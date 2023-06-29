@@ -574,15 +574,18 @@ border-radius: 0px 0px 4px 4px;
 }
 .form-input {
     border-radius: 4px;
-    border: 1px solid var(--subtleText, rgba(46, 47, 66, 0.40));
+    border: 1px solid rgba(46, 47, 66, 0.4);
     padding-left: 38px;
-    transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 40px;
     outline: transparent;
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
+.comment {
+    margin-bottom: 16px;
+
+}
 .form-input:focus {
     border-color: var(--primaryBrand);
 }
@@ -601,12 +604,16 @@ border-radius: 0px 0px 4px 4px;
 .form-textarea {
     resize: none;
     outline: none;
+    font-size: 12px;
+    line-height: 1.17;
     padding-left: 16px;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     width: 100%;
     height: 120px;
     border-radius: 4px;
     padding: 8px 16px;
-    border: 1px solid var(--subtleText, rgba(46, 47, 66, 0.40));
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
     background-color: transparent;
@@ -646,16 +653,17 @@ border-radius: 0px 0px 4px 4px;
     color: var(--subtleText);
 }
 .checkbox {
-width: 16px;
-height: 16px;
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 2px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-display: inline-flex; 
-align-items: center;
-justify-content: center;
-fill: transparent; 
-margin-right: 8px;
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    fill: transparent; 
+    margin-right: 8px;
 }
 .privacy-link {
     color: var(--primaryBrand);
