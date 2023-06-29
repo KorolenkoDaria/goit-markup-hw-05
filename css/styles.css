@@ -653,7 +653,6 @@ border-radius: 0px 0px 4px 4px;
     color: var(--subtleText);
 }
 .checkbox {
-    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -671,7 +670,7 @@ border-radius: 0px 0px 4px 4px;
 .policy:checked + .privacy-label > .checkbox {
     background-color: #404BBF;
     border: none;
-    fill: #FFFFFF;
+    fill: var(--lightBg);
     border-color: #404BBF;
   }
 
